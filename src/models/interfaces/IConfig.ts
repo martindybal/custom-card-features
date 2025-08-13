@@ -108,16 +108,27 @@ export interface IInputOptions {
 	step?: number;
 }
 
-export const CheckedValues = ['true', 'yes', 'on', 'enable', 'enabled', '1'];
+export const CheckedValues = [
+        'true',
+        'yes',
+        'on',
+        'enable',
+        'enabled',
+        '1',
+        'open',
+        'opening',
+];
 export const UncheckedValues = [
-	'false',
-	'no',
-	'off',
-	'disable',
-	'disabled',
-	'0',
-	'undefined',
-	'null',
+        'false',
+        'no',
+        'off',
+        'disable',
+        'disabled',
+        '0',
+        'undefined',
+        'null',
+        'closed',
+        'closing',
 ];
 
 export interface IToggleOptions {
